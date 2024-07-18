@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>여행 블로그</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>내 여행 블로그에 오신 것을 환영합니다</h1>
+    </header>
+    <main>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="image1.jpg" style="width:50%">
+            </div>
+            <div class="mySlides fade">
+                <img src="image2.jpg" style="width:50%">
+            </div>
+            <div class="mySlides fade">
+                <img src="image3.jpg" style="width:50%">
+            </div>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+        
+        <section class="post">
+            <h2>파리의 숨겨진 보석들 발견하기</h2>
+            <p class="date">게시일: 2024년 7월 18일</p>
+            <p>파리는 에펠탑과 루브르 박물관만이 아닙니다. 이번 포스트에서는 빛의 도시 파리의 덜 알려졌지만 마찬가지로 매력적인 장소들을 탐험해 봅니다...</p>
+            <button onclick="readMore(this)">더 읽기</button>
+        </section>
+        <section class="post">
+            <h2>도쿄에서 꼭 봐야 할 명소 10곳</h2>
+            <p class="date">게시일: 2024년 7월 15일</p>
+            <p>도쿄는 전통과 현대가 조화롭게 어우러진 도시입니다. 고대 사원부터 번화한 쇼핑 거리까지, 놓치지 말아야 할 10곳의 명소를 소개합니다...</p>
+            <button onclick="readMore(this)">더 읽기</button>
+        </section>
+        <section class="post">
+            <h2>이탈리아를 통한 미식 여행</h2>
+            <p class="date">게시일: 2024년 7월 10일</p>
+            <p>이탈리아 요리는 전 세계적으로 유명하지만 피자와 파스타 외에도 발견할 것이 많습니다. 이탈리아의 다양한 지역을 통한 미식 모험에 동참해 보세요...</p>
+            <button onclick="readMore(this)">더 읽기</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 내 여행 블로그</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
